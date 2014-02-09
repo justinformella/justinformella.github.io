@@ -197,3 +197,15 @@ table.tablesorter thead tr th:hover {
   height: 50px;
   width: 50px;
 }
+
+.blurred {
+  -webkit-filter: blur(40px);
+}
+
+.prompt-teaser {
+  text-align: center;
+  position: absolute;
+  top: 147px;
+  z-index: 9000;
+  left: 308px;
+}
