@@ -318,3 +318,12 @@ table.dataTable thead .sorting:after {
     position: relative;
     top: -28px;
 }
+
+.img50 {
+    height: 50px;
+    width: 50px;
+}
+
+#morris-area-chart svg {
+    height: 400px !important;
+}
