@@ -162,3 +162,16 @@ table.tablesorter thead tr th:hover {
   }
 
 }
+
+/* LOGO */
+.navbar-brand img {
+    height: 78px;
+    position: relative;
+    top: -11px;
+    left: -18px;
+}
+.navbar-brand .portal-title {
+    position: relative;
+    top: -28px;
+}
+
