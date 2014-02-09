@@ -1,0 +1,101 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ #page-wrapper {
+   position: relative;
+   width: 980px;
+   /* centers the document */
+   margin: 0 auto;
+   /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+   overflow: hidden;
+   height: 1000px;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 980px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .rectangle {
+   background: rgba(128, 204, 255, 0.247059);
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   -o-box-shadow: none;
+   box-shadow: none;
+   border-radius: 0px;
+   border: none;
+   width: 1000px;
+   height: 183px;
+   position: absolute;
+   top: -109px;
+   left: -21px;
+ }
+ #absolute-wrapper .rectangle .image {
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   top: 117px;
+   left: 40px;
+ }
+ #absolute-wrapper .rectangle .heading {
+   font-family:"museo-slab";
+   width: 401px;
+   height: 42px;
+   position: absolute;
+   top: 126px;
+   left: 112px;
+ }
+ #absolute-wrapper div.div-1 {
+   position: absolute;
+ }
+ #absolute-wrapper div.div-2 {
+   height: 138px;
+   width: 797px;
+ }
+ #absolute-wrapper div.div-3 {
+   width: 837px;
+   height: 674px;
+   top: 78px;
+   left: 52px;
+ }
+ #absolute-wrapper .div-1.div-3 .heading.heading-1 {
+   margin: 10px 0px 20px 0px;
+ }
+ #absolute-wrapper .div-1.div-3 .btn-group .btn.btn-1 {
+   margin: 0px 3px 0px 0px;
+ }
+ #absolute-wrapper .div-1.div-3 .btn-group .btn.btn-2 {
+   margin: 0px 3px 0px 3px;
+ }
+ #absolute-wrapper .div-1.div-3 .btn-group .btn.btn-3 {
+   margin: 0px 0px 0px 3px;
+ }
+ #absolute-wrapper .div-1.div-3 .btn-group .btn.btn-4 {
+   background: #ffffff;
+   background-image: -moz-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%);
+   background-image: -webkit-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%);
+   background-image: -o-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%);
+   background-image: linear-gradient(180deg, #ffffff 0%, #e6e6e6 100%);
+ }
+ #absolute-wrapper .div-1.div-3 .heading.heading-2 {
+   margin: 30px 0px 10px 0px;
+ }
+ #absolute-wrapper .image {
+   position: absolute;
+ }
+ #absolute-wrapper .image.image-1 {
+   opacity: 0.4;
+   width: 100px;
+   height: 120px;
+   top: 290px;
+   left: 760px;
+ }
