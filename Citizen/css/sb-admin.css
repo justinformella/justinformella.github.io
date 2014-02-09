@@ -189,3 +189,7 @@ table.tablesorter thead tr th:hover {
   color: #666666;
 }
 
+.avatar img {
+  height: 50px;
+  width: 50px;
+}
