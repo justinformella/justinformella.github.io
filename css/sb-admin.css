@@ -313,3 +313,8 @@ table.dataTable thead .sorting:after {
     top: -11px;
     left: -18px;
 }
+
+.navbar-brand .portal-title {
+    position: relative;
+    top: -28px;
+}
